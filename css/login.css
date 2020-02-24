@@ -1,0 +1,232 @@
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+body {
+    background: #f9f9f9;
+    height: 100%;
+}
+
+/* header */
+
+.nav {
+    height: 90px;
+    background: #f9f9f9;
+}
+
+.nav .wrap div {
+    position: relative;
+    width: 200px;
+    height: 90px;
+    background: url(../images/image/indexicons.png) 0 -542px;
+}
+
+.nav .wrap div a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 90px;
+}
+
+/* main */
+
+button {
+    cursor: pointer;
+}
+
+.main {
+    background: #46a4e9;
+}
+
+.main .wrap {
+    height: 542px;
+    background: url(../images/image/mbanner.jpg);
+}
+
+.main .wrap img {
+    position: relative;
+    top: 50px;
+}
+
+input {
+    font-size: 12px;
+    width: 250px;
+}
+
+.main .login {
+    position: relative;
+    width: 282px;
+    height: 428px;
+    padding: 20px 25px 0;
+    background: #fff;
+    float: right;
+    margin: 50px 50px 0 0;
+}
+
+.main .login h2 {
+    width: 82px;
+    height: 20px;
+    background: url(../images/image/new-sso.png) -100px -2px;
+    margin-bottom: 20px;
+}
+
+.main .login .hint {
+    height: 20px;
+    color: red;
+}
+
+.main .login .text, .main .login .password {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #dfdfdf;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.main .login .text i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background: url(../images/image/new-sso.png) -90px -30px;
+}
+
+.main .login .password i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background: url(../images/image/new-sso.png) -30px -30px;
+}
+
+.main .login .password span, .main .login .text span {
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    width: 16px;
+    height: 16px;
+    background: url(../images/image/new-sso.png) -142px -358px;
+    display: none;
+}
+
+/* tip */
+
+.main .tip i {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(../images/image/new-sso.png) 0 -66px;
+    vertical-align: -2px;
+}
+
+.main .tip span {
+    color: #afafaf;
+    font-size: 12px;
+}
+
+.main .tip .right {
+    float: right;
+    color: #4db3ff;
+}
+
+.main .tip .right a {
+    color: #4db3ff;
+}
+
+.main button {
+    display: block;
+    border: none;
+    color: #fff;
+    background: #1a9eff;
+    height: 40px;
+    width: 100%;
+    letter-spacing: 15px;
+    margin: 10px 0;
+}
+
+.main .help_login a {
+    color: #afafaf;
+    font-size: 12px
+}
+
+.main .help_login a:nth-child(1) {
+    position: relative;
+    padding-left: 20px;
+}
+
+.main .help_login a:nth-child(1)::before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    background: url(../images/image/new-sso.png) -165px -74px;
+}
+
+.main .help_login a:nth-child(2) {
+    float: right;
+    color: #4db3ff;
+}
+
+/* other */
+
+.main .other {
+    position: absolute;
+    bottom: 0;
+    left: 46px;
+    display: flex;
+    width: 240px;
+    height: 70px;
+    border-top: 1px solid #afafaf;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.main .other i {
+    position: absolute;
+    left: 72px;
+    top: -8px;
+    width: 40%;
+    background-color: #fff;
+    text-align: center;
+    color: #afafaf;
+}
+
+.main .other a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 10px;
+    background: url(../images/image/new-sso.png) 0 -750px;
+}
+
+.main .other a:nth-child(3) {
+    background-position: -30px -750px;
+}
+
+.main .other a:nth-child(4) {
+    background-position: -60px -750px;
+}
+
+/* footer */
+
+footer {
+    padding-top: 25px;
+    height: 50px;
+}
+
+footer p {
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    color: #afafaf;
+    font-size: 12px;
+}
